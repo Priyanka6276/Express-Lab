@@ -1,0 +1,14 @@
+<head>
+#title#
+</head>
+<body>
+<h1>#heading#</h1>
+<img src = "#link#">
+<ul>
+<li><a href = "#url1#">#point1#</a></li>
+<li><a href = "#url2#">#point2#</a></li>
+<li><a href = "#url3#">#point3#</a></li>
+<li><a href = "#url4#">#point4#</a></li>
+<li><a href = "#url5#">#point5#</a></li>
+</ul>
+</body>

@@ -1,0 +1,10 @@
+<head>
+#title#
+</head>
+<body>
+<header>#message#</header>
+<h2> Quote </h2>
+#quote#
+#content#
+<img src = "#link#">
+</body>
