@@ -1,11 +1,12 @@
 <head>
 #title#
 </head>
-<body>
+<body style="background-color:#C2C3D5">
 <header>#message#</header>
 <h2> Quote </h2>
 #quote#
 #content#
-<img src = "#link#">
+<img src = "#link#" style = "border-radius: 20px; width:50%; margin-left: 25%">
 <a href = "#url1#">#favCharacter#</a>
+<a href = "#url2#">Return To Main Page</a>
 </body>

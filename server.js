@@ -87,6 +87,7 @@ app.get("/mass-effect", (req,res) => {
         link: "https://media.contentapi.ea.com/content/dam/masseffect/images/2020/10/me-featured-image-mele-keyart-logo.jpg.adapt.crop16x9.1023w.jpg",
         favCharacter: "Best Companion",
         url1:"/mass-effect/fav",
+        url2:"/",
     })
 })
 
@@ -102,6 +103,7 @@ app.get("/dragon-age", (req,res) => {
         link: "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2022/01/Dragon-Age-Origins-logo-(left)-Dragon-Age-Inquisition-cover-(centre)-Dragon-Age-2-logo-(right).jpg",
         favCharacter: "Best Companion",
         url1:"/dragon-age/fav",
+        url2:"/",
     })
 })
 
@@ -114,6 +116,7 @@ app.get("/skyrim", (req,res) => {
         link: "https://cdn1.epicgames.com/offer/c8738a4d1ead40368eab9688b3c7d737/EGS_SkyrimSpecialEdition_BethesdaGameStudios_S2_1200x1600-ae5d13f6510e81460fe80aa1ca19cf4c",
         favCharacter: "Best Companion",
         url1:"/skyrim/fav",
+        url2:"/",
     })
 })
 
@@ -126,6 +129,7 @@ app.get("/hollow-knight", (req,res) => {
         link: "https://cdn.akamai.steamstatic.com/steam/apps/367520/capsule_616x353.jpg?t=1625363925",
         favCharacter: "Best Character",
         url1:"/hollow-knight/fav",
+        url2:"/",
     })
 })
 
@@ -138,6 +142,7 @@ app.get("/pokemon", (req,res) => {
         link: "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/p/pokemon-legends-arceus-switch/hero",
         favCharacter: "Favorite Pokemon",
         url1:"/pokemon/fav",
+        url2:"/",
     })
 })
 
@@ -146,7 +151,8 @@ app.get("/mass-effect/fav", (req,res) => {
         title: "Garrus",
         heading: "Garrus",
         link: "https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/dataimagejpegbase649j4AAQSkZJRgABAQAAAQABAAD2wBDAA-3c63ca985bac4050d469ab5939dfef83.jpg",
-        content: "All I have to say is that he's awesome!"
+        content: "All I have to say is that he's awesome!",
+        url2:"/",
     })
 })
 
@@ -155,7 +161,8 @@ app.get("/dragon-age/fav", (req,res) => {
         title: "Dorian",
         heading: "Dorian",
         link: "https://gamingtrend.com/wp-content/uploads/2014/11/dorian1.jpg",
-        content: "A fun character to interact with in the Dragon Age Inquistion. Also very good in a fight."
+        content: "A fun character to interact with in the Dragon Age Inquistion. Also very good in a fight.",
+        url2:"/",
     })
 })
 
@@ -164,14 +171,16 @@ app.get("/skyrim/fav", (req,res) => {
         title: "Paarthurnax",
         heading: "Paarthurnax",
         link: "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/01/Paarthurnax.jpg?q=50&fit=crop&w=1500&dpr=1.5",
-        content: "The only dragon that is willing to have a conversation. "
+        content: "The only dragon that is willing to have a conversation. ",
+        url2:"/",
     })
 })
 
 app.get("/hollow-knight/fav", (req,res) => {
     res.render("knight-template", {
         title: "Hello!",
-        content: "Sorry I couldn't help myself..."
+        content: "Sorry I couldn't help myself...",
+        url2:"/",
     })
 })
 
@@ -180,7 +189,8 @@ app.get("/pokemon/fav", (req,res) => {
         title: "Vulpix",
         heading: "Vulpix",
         link: "https://archives.bulbagarden.net/media/upload/thumb/6/60/037Vulpix.png/250px-037Vulpix.png",
-        content: "Adorable and in my opinion a good fire type."
+        content: "Adorable and in my opinion a good fire type.",
+        url2:"/",
     })
 })
 

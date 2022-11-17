@@ -1,8 +1,9 @@
 <head>
 #title#
 </head>
-<body>
+<body style="background-color:#C2C3D5">
 <h1>#heading#</h1>
 <img src = "#link#">
 #content#
+<a href = "#url2#">Return To Main Page</a>
 </body>

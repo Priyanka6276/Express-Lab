@@ -1,9 +1,9 @@
 <head>
 #title#
 </head>
-<body>
+<body style="background-color:#C2C3D5">
 <h1>#heading#</h1>
-<img src = "#link#">
+<img src = "#link#" style = "border-radius: 20px; width:50%; margin-left: 25%">
 <ul>
 <li><a href = "#url1#">#point1#</a></li>
 <li><a href = "#url2#">#point2#</a></li>
